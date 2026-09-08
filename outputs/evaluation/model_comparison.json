@@ -1,0 +1,32 @@
+[
+  {
+    "model_name": "Baseline (TF-IDF + LR)",
+    "accuracy": 0.7763,
+    "precision": 0.9228,
+    "recall": 0.8047,
+    "f1": 0.8597,
+    "macro_f1": 0.6542,
+    "roc_auc": 0.7807,
+    "confusion_matrix": {
+      "true_negatives": 273,
+      "false_positives": 172,
+      "false_negatives": 499,
+      "true_positives": 2056
+    }
+  },
+  {
+    "model_name": "LSTM Memory Network",
+    "accuracy": 0.844,
+    "precision": 0.866,
+    "recall": 0.9663,
+    "f1": 0.9134,
+    "macro_f1": 0.5628,
+    "roc_auc": 0.759,
+    "confusion_matrix": {
+      "true_negatives": 63,
+      "false_positives": 382,
+      "false_negatives": 86,
+      "true_positives": 2469
+    }
+  }
+]

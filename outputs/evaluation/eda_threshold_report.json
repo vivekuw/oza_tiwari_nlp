@@ -1,0 +1,56 @@
+{
+  "total_records": 568454,
+  "zero_vote_records": 270052,
+  "zero_vote_percentage": 47.51,
+  "voted_records": 298400,
+  "voted_percentage": 52.49,
+  "ratio_percentiles_when_voted": {
+    "mean": 0.7769646630466143,
+    "std": 0.34629612624425804,
+    "median": 1.0,
+    "p25": 0.6,
+    "p75": 1.0
+  },
+  "threshold_sensitivity": {
+    "min_denom_1": {
+      "eligible_reviews": 298400,
+      "pct_of_all_reviews": 52.49,
+      "ratio_ge_0.50_pct": 83.21,
+      "ratio_ge_0.60_pct": 75.44,
+      "ratio_ge_0.70_pct": 70.78,
+      "ratio_ge_0.80_pct": 67.58
+    },
+    "min_denom_2": {
+      "eligible_reviews": 185648,
+      "pct_of_all_reviews": 32.66,
+      "ratio_ge_0.50_pct": 85.16,
+      "ratio_ge_0.60_pct": 72.68,
+      "ratio_ge_0.70_pct": 65.18,
+      "ratio_ge_0.80_pct": 60.04
+    },
+    "min_denom_3": {
+      "eligible_reviews": 124167,
+      "pct_of_all_reviews": 21.84,
+      "ratio_ge_0.50_pct": 82.51,
+      "ratio_ge_0.60_pct": 77.59,
+      "ratio_ge_0.70_pct": 66.39,
+      "ratio_ge_0.80_pct": 58.7
+    },
+    "min_denom_5": {
+      "eligible_reviews": 67467,
+      "pct_of_all_reviews": 11.87,
+      "ratio_ge_0.50_pct": 81.7,
+      "ratio_ge_0.60_pct": 77.08,
+      "ratio_ge_0.70_pct": 69.52,
+      "ratio_ge_0.80_pct": 63.57
+    },
+    "min_denom_10": {
+      "eligible_reviews": 24982,
+      "pct_of_all_reviews": 4.39,
+      "ratio_ge_0.50_pct": 81.8,
+      "ratio_ge_0.60_pct": 77.6,
+      "ratio_ge_0.70_pct": 72.6,
+      "ratio_ge_0.80_pct": 65.38
+    }
+  }
+}
